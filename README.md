@@ -1,5 +1,5 @@
 # Outlander-PHEV
-Collection of Data on running Mitsubishi Outlander Hybrid Drivetrain Components
+Collection of Data on running Mitsubishi Outlander Hybrid Drivetrain Components via CAN
 
 FEMCU=Front electric motor control unit (inverter).
 
