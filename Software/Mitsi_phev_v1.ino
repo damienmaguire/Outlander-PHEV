@@ -227,7 +227,7 @@ void checkforinput()
            SerialUSB.print("Torque set to: ");
            TorqueReq=SerialUSB.parseInt();
            TorqueVal=TorqueVal+TorqueReq;//add for forward dir
-            SerialUSB.print(TorqueReq);
+            SerialUSB.print(TorqueReq/10);
             SerialUSB.println("NM Forward");
             break;
 
@@ -235,7 +235,7 @@ void checkforinput()
            SerialUSB.print("Torque set to: ");
            TorqueReq=SerialUSB.parseInt();
            TorqueVal=TorqueVal-TorqueReq;//subtract for reverse dir
-            SerialUSB.print(TorqueReq);
+            SerialUSB.print(TorqueReq/10);
             SerialUSB.println("NM Reverse");
             break;
 
